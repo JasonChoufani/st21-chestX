@@ -16,4 +16,4 @@ def verify(location):
         return True
 
 if __name__ == "__main__":
-    print(verify(str(os.path.abspath('.'))+'/backend-chest-X/public'))
+    print(verify(str(os.path.abspath('.'))+'/public'))
