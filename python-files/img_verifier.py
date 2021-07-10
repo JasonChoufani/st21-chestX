@@ -14,6 +14,5 @@ def verify(location):
         except (IOError, OSError) as e :
             return e
         return True
-
 if __name__ == "__main__":
     print(verify(str(os.path.abspath('.'))+'/public'))
